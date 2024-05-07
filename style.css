@@ -1,0 +1,51 @@
+html, body {
+    height: 100%; /* Ensure HTML and body elements cover the entire viewport */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+body {
+background-image: url('casino.jpg');
+background-color: rgba(0, 0, 0, 0.5);
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
+text-align: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#gameName {
+    color: goldenrod;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.content {
+    color: aliceblue;
+    font-size: 30px;
+    font-weight:normal;
+}
+
+p{
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.content #message{
+    font-style: italic;
+}
+
+button{
+    color: rgb(0, 0, 0);
+    background-color:goldenrod;
+    padding: 5px;
+    margin: 5px;
+    width: 150px;
+    font-style: oblique;
+    font-size: 20px;
+    border-radius: 3px;
+}
+#newCard:disabled {
+    background-color: red;
+    color:goldenrod;
+  }
